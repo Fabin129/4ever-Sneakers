@@ -1,0 +1,41 @@
+body{
+    font-family:arial;
+    background: #C6CBFC;
+}
+.logo{
+    display:block;
+    margin:auto;
+    margin-bottom: 0px;
+}
+*{
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+}
+nav{
+    list-style: none;
+    padding: 0%;
+    background: white;
+    margin-top:20px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #979FEE;
+    padding: 20px;
+    display: block;
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+}
+nav li a:hover{
+background: #C6CBFC; 
+color:white;
+border:3px white solid;
+font-size: 15pt;
+}
